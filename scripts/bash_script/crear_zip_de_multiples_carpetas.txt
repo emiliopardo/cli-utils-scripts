@@ -1,0 +1,1 @@
+for /D %a in (*.) do 7z a -tzip %a %a -mx9 -r -x!*.*
